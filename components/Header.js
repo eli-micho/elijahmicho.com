@@ -20,7 +20,7 @@ export default function Header({ enableTransition }) {
                     alignItems="center"
                     width="100%"
                     px="6vw"
-                    py="5"
+                    py="4"
                     borderBottom="1px solid #D72323"
                 >
                     <NextLink href="/" passHref>
