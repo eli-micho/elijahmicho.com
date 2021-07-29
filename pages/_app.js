@@ -1,4 +1,3 @@
-import '../styles/globals.css';
 import { ChakraProvider } from '@chakra-ui/react';
 import { Global, css } from '@emotion/react';
 import customTheme from '../styles/theme';
@@ -15,14 +14,21 @@ const GlobalStyle = ({ children }) => {
            background: #212121;
            color: #fefefe;
          }
+         body {
+           font-family: Nunito;
+           display: flex;
+           justify-content:center
+         }
          html {
            min-width: 356px;
          }
          #__next {
            display: flex;
            flex-direction: column;
+           align-items: center;
            min-height: 100vh;
-           background: #000;
+           background: #212121
+           max-width: 1440px;
          }
          ::-webkit-scrollbar {
            width: 8px;

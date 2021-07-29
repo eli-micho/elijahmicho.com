@@ -7,7 +7,7 @@ export default function Container({ enableTransition, children }) {
     return (
         <>
             <Header enableTransition={enableTransition}/>
-            <Flex as="main" justifyContent="center" flexDirection="column">
+            <Flex maxWidth="1440px" as="main" justifyContent="center" flexDirection="column">
                 {children}
             </Flex>
         </>
