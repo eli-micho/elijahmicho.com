@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import NextDocument, { Html, Head, Main, NextScript } from 'next/document';
 
 export default class MyDocument extends NextDocument {
@@ -5,11 +6,10 @@ export default class MyDocument extends NextDocument {
         return (
             <Html lang="en">
                 <Head>
-                    // eslint-disable-next-line @next/next/no-page-custom-font
                     <link
                         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap"
                         rel="stylesheet"
-                        />
+                    />
                     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap" rel="stylesheet"/>
                     <meta name="theme-color" content="black"/>
                 </Head>

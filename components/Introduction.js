@@ -27,7 +27,7 @@ export default function Introduction() {
                             fontSize={64}
                             fontWeight="medium"
                         >
-                            Hey, I'm Elijah
+                            Hey, I&apos;m Elijah
                         </Heading>
                         <Text
                             fontSize={72}
