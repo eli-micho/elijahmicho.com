@@ -84,7 +84,7 @@ export default function Projects() {
                             fontSize="20px"
                             textAlign="center"
                         >
-                            I'm constantly working on projects and developing my skills.
+                            I&apos;m constantly working on projects and developing my skills.
                             <br/>
                             Check out my 
                             <RedText> 

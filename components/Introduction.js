@@ -32,7 +32,7 @@ export default function Introduction() {
                         <Text
                             fontSize={72}
                         >
-                            I'm a <RedText>Fullstack Software Developer</RedText>
+                            I&apos;m a <RedText>Fullstack Software Developer</RedText>
                         </Text>
                     </Box>
                 </Fade>
