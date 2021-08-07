@@ -13,22 +13,43 @@ export default function Projects() {
     const projects = [
         {
             id: 0,
-            projectImg: 'https://i.imgur.com/a/obYMGXZ.png',
-            title: 'CryptoCrunch',
-            desc: 'Crypto currency tracker',
-            externalURL: 'https://eli-micho.github.io/cryptotracker/',
-            githubURL: 'https://github.com/eli-micho/cryptotracker',
-            tech: ['React', 'Scss']
+            projectImg: 'https://i.imgur.com/XcNFl03.png',
+            title: 'Pieces Shop',
+            desc: `Fullstack eCommerce website for imagined furniture store.
+            Built with MERN stack (MongoDB, Express, React, Node.js). Features: ability to create accounts, login and logout, adding items to cart, checkout and more.`,
+            externalURL: 'https://pieces-shop.netlify.app/',
+            githubURL: 'https://github.com/eli-micho/ecommerce_shop',
+            tech: ['React', 'Scss', 'React-Redux', 'MongoDB', 'Express', 'Node.js']
         },
         {
             id: 1,
-            projectImg: 'https://images.ctfassets.net/hrltx12pl8hq/7yQR5uJhwEkRfjwMFJ7bUK/dc52a0913e8ff8b5c276177890eb0129/offset_comp_772626-opt.jpg?fit=fill&w=800&h=300',
+            projectImg: 'https://niagaragrapeandwinetours.ca/wp-content/uploads/2020/09/comingsoon.jpg',
+            title: 'Streamer.Info',
+            desc: `React App that uses TwitchAPI and returns relevant channel data (e.g follower count, games played, creator status, etc.) based on user searches.
+            Built with MERN stack (MongoDB, Express, React, Node.js).`,
+            externalURL: 'https://eli-micho.github.io/cryptotracker/',
+            githubURL: 'https://github.com/eli-micho/twitch-mern-app',
+            tech: ['React', 'Material-UI', 'Express', 'Node.js']
+        },
+        {
+            id: 2,
+            projectImg: 'https://i.imgur.com/SV85Tj2.png',
             title: 'CryptoCrunch',
-            desc: 'Crypto currency tracker',
+            desc: `Application that displays data from 25+ of the most popular cryptocurrencies: queries API from CoinGecko.com and
+            returns relevant data on various cryptocurrency.`,
             externalURL: 'https://eli-micho.github.io/cryptotracker/',
             githubURL: 'https://github.com/eli-micho/cryptotracker',
+            tech: ['React', 'Scss', 'React-Redux']
+        },
+        {
+            id: 3,
+            projectImg: 'https://i.imgur.com/2KTeiNb.png',
+            title: 'Le Cafe',
+            desc: 'Simple website for an imagined coffee shop.',
+            externalURL: 'https://eli-micho.github.io/restaurant-page/',
+            githubURL: 'https://github.com/eli-micho/restaurant-page',
             tech: ['React', 'Scss']
-        }
+        },
     ]
     return (
         <>
