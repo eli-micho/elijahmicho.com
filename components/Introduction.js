@@ -10,7 +10,7 @@ export default function Introduction() {
     `
     return (
         <>
-            <Stack spacing={10}>
+            <Stack spacing={10} mb={[20,30]}>
                 <Fade
                     in={true}
                     transition={{ enter: { duration: 0.4, delay: 0.7 } }}
@@ -89,11 +89,11 @@ export default function Introduction() {
                             fontWeight="regular"
                             marginBottom="36px"
                         >
-                            Contact Me
+                            Get in touch.
                         </Heading>
                         <Stack>
                             <ButtonGroup variant="solid" spacing="20">
-                                <Link href="https://google.com" passHref isExternal>
+                                <Link href="mailto:olum.micho@gmail.com" passHref isExternal>
                                     <Button 
                                         leftIcon={<MailFilled style={{ fontSize: '25px', color:'#D72323'}}/>}
                                         color="#212121"

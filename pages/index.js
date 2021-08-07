@@ -3,6 +3,7 @@ import Image from 'next/image'
 import { Stack } from '@chakra-ui/react';
 import Container from '../components/Container'
 import Introduction from '../components/Introduction';
+import AboutMe from '../components/AboutMe';
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
           justifyContent="center"
         >
           <Introduction/>
+          <AboutMe/>
         </Stack>
       </Container>
       

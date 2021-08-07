@@ -17,7 +17,8 @@ const GlobalStyle = ({ children }) => {
          body {
            font-family: Nunito;
            display: flex;
-           justify-content:center
+           justify-content: center;
+           background-image: repeating-linear-gradient(45deg, rgba(97,97,97,0.1) 0px, rgba(97,97,97,0.1) 2px,transparent 2px, transparent 4px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
          }
          html {
            min-width: 356px;
@@ -27,7 +28,6 @@ const GlobalStyle = ({ children }) => {
            flex-direction: column;
            align-items: center;
            min-height: 100vh;
-           background: #212121
            max-width: 1440px;
          }
          ::-webkit-scrollbar {

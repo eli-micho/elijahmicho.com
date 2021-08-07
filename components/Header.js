@@ -33,12 +33,12 @@ export default function Header({ enableTransition }) {
                     </NextLink>
 
                     <Box>
-                        <NextLink href="/about" passHref>
+                        <NextLink href="/" passHref>
                             <Button as="a" variant="ghost" p="4" ml="3vw" fontSize="18px" >
-                                About Me
+                                Home
                             </Button>
                         </NextLink>
-                        <NextLink href="/resume" passHref>
+                        <NextLink href="https://eli-micho.github.io/resume/" passHref isExternal>
                             <Button as="a" variant="ghost" fontSize="18px">  
                                 Resume
                             </Button>
@@ -48,7 +48,7 @@ export default function Header({ enableTransition }) {
                                 Projects
                             </Button>
                         </NextLink>
-                        <NextLink href="/contact" passHref>
+                        <NextLink href="mailto:olum.micho@gmail.com" passHref>
                             <Button as="a" variant="ghost" fontSize="18px">
                                 Contact
                             </Button>
