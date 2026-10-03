@@ -84,7 +84,7 @@ h1 {
   text-decoration: none;
 }
 .contact a:hover {
-  color: var(--coral);
+  color: var(--mint);
 }
 
 .contactLabel {

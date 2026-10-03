@@ -28,7 +28,7 @@
   color: var(--color-text);
 }
 .nav a:hover {
-  color: var(--coral);
+  color: var(--mint);
 }
 
 .actions {
@@ -48,7 +48,7 @@
 }
 .themeButton:hover,
 .menuButton:hover {
-  color: var(--coral);
+  color: var(--mint);
 }
 .menuButton {
   display: none;

@@ -22,7 +22,7 @@
   text-decoration: none;
 }
 .heading a:hover {
-  color: var(--coral);
+  color: var(--mint);
 }
 .heading a span {
   margin-left: 10px;
@@ -45,7 +45,7 @@
 }
 
 .row:hover {
-  color: var(--coral);
+  color: var(--mint);
 }
 .row > span {
   grid-column: 1 / -1;

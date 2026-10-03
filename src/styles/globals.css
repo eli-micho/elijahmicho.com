@@ -11,7 +11,7 @@
   --color-border: rgba(255, 255, 255, 0.1);
   --color-grid: rgba(255, 255, 255, 0.035);
 
-  --color-accent: #e8a03a;
+  --color-accent: #18d7ad;
 
   --content-width: 1160px;
 
@@ -28,7 +28,7 @@
   --color-text-muted: #7b7b83;
   --color-border: rgba(24, 25, 27, 0.14);
   --color-grid: rgba(24, 25, 27, 0.045);
-  --color-accent: #b96e17;
+  --color-accent: #18d7ad;
 }
 
 body {
