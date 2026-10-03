@@ -1,0 +1,21 @@
+:root {
+  --ink: #f1f1f1;
+  --paper: #080809;
+  --muted: #98989f;
+  --line: rgba(255, 255, 255, 0.1);
+  --soft-line: rgba(255, 255, 255, 0.1);
+  --coral: #ff755c;
+  --blue: #81a8ff;
+  --lime: #d7e886;
+  --serif: Georgia, "Times New Roman", serif;
+  --sans: "Geist", "Segoe UI", sans-serif;
+  --mono: "Courier New", monospace;
+}
+
+:root[data-theme="light"] {
+  --ink: #18191b;
+  --paper: #f7f7f5;
+  --muted: #65656d;
+  --line: rgba(24, 25, 27, 0.14);
+  --soft-line: rgba(24, 25, 27, 0.14);
+}

@@ -1,0 +1,48 @@
+@import "./variables.css";
+@import "./reset.css";
+
+:root {
+  --color-bg: #080809;
+
+  --color-text: #f1f1f1;
+  --color-text-secondary: #98989f;
+  --color-text-muted: #626268;
+
+  --color-border: rgba(255, 255, 255, 0.1);
+  --color-grid: rgba(255, 255, 255, 0.035);
+
+  --color-accent: #e8a03a;
+
+  --content-width: 1160px;
+
+  --page-padding: 24px;
+
+  --section-spacing: 72px;
+  font-family: "Geist", sans-serif;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #f7f7f5;
+  --color-text: #18191b;
+  --color-text-secondary: #65656d;
+  --color-text-muted: #7b7b83;
+  --color-border: rgba(24, 25, 27, 0.14);
+  --color-grid: rgba(24, 25, 27, 0.045);
+  --color-accent: #b96e17;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+
+  background-image:
+    linear-gradient(var(--color-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--color-grid) 1px, transparent 1px);
+
+  background-size: 64px 64px;
+}
+
+::selection {
+  color: var(--paper);
+  background: var(--coral);
+}

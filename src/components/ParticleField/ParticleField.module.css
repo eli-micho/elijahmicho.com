@@ -1,0 +1,48 @@
+.field {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.field span {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: var(--coral);
+  border-radius: 50%;
+  opacity: 0.7;
+  animation: drift 8s ease-in-out infinite;
+}
+.field span:nth-child(1) {
+  top: 25%;
+  left: 12%;
+}
+.field span:nth-child(2) {
+  top: 44%;
+  right: 16%;
+  background: var(--lime);
+  animation-delay: -2s;
+}
+.field span:nth-child(3) {
+  top: 68%;
+  left: 8%;
+  background: var(--blue);
+  animation-delay: -4s;
+}
+.field span:nth-child(4) {
+  top: 16%;
+  right: 33%;
+  animation-delay: -1s;
+}
+.field span:nth-child(5) {
+  bottom: 11%;
+  right: 42%;
+  background: var(--lime);
+  animation-delay: -6s;
+}
+@keyframes drift {
+  50% {
+    transform: translate(10px, -14px);
+    opacity: 0.25;
+  }
+}

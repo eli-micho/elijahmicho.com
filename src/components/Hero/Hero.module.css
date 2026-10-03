@@ -1,0 +1,168 @@
+.hero {
+  position: relative;
+  max-width: 1180px;
+  min-height: 464px;
+  margin: 0 auto;
+  padding: 64px 20px 40px;
+  overflow: hidden;
+}
+.content {
+  position: relative;
+  z-index: 1;
+  max-width: 860px;
+}
+.identity {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+.avatar {
+  display: grid;
+  width: 110px;
+  height: 110px;
+  place-items: end center;
+  overflow: hidden;
+  background: linear-gradient(145deg, #d6d6d2, #4f5155);
+  border-radius: 11px;
+}
+.avatar::before {
+  content: "";
+  width: 63px;
+  height: 82px;
+  background: #16181b;
+  border-radius: 48% 48% 20% 20%;
+  box-shadow: 18px -14px 0 -7px #202226;
+}
+.avatar span {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.28);
+  font: 0.62rem var(--sans);
+  transform: translateY(-8px);
+}
+h1 {
+  margin: 0;
+  color: var(--ink);
+  font: 700 clamp(2.6rem, 5vw, 4.2rem)/1 var(--sans);
+  letter-spacing: -0.06em;
+}
+.identity p {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 1.45rem;
+}
+
+.contact {
+  display: flex;
+  gap: 6rem;
+  max-width: 650px;
+  margin-top: 48px;
+}
+
+.contact > div > span {
+  display: block;
+  margin-bottom: 11px;
+  color: var(--muted);
+  font: 0.68rem var(--sans);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.contact > div > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: var(--ink);
+  font-size: 1rem;
+}
+.contact svg {
+  width: 19px;
+  height: 19px;
+  color: var(--muted);
+  stroke-width: 1.5;
+}
+.contact a {
+  color: inherit;
+  text-decoration: none;
+}
+.contact a:hover {
+  color: var(--coral);
+}
+
+.contactLabel {
+  display: block;
+  margin-bottom: 11px;
+  color: var(--muted);
+  font: 0.68rem var(--sans);
+  letter-spacing: 0.14em;
+}
+
+.bio {
+  max-width: 600px;
+  margin: 48px 0 0;
+  color: var(--muted);
+  font-size: 1.16rem;
+  line-height: 1.5;
+}
+
+.profileImage {
+  width: 110px;
+  height: 110px;
+  border-radius: 11px;
+  object-fit: cover;
+}
+@media (min-width: 640px) {
+  .hero {
+    padding-inline: 32px;
+  }
+}
+@media (min-width: 1025px) {
+  .hero {
+    padding-inline: 62px;
+  }
+}
+@media (max-width: 639px) {
+  .hero {
+    min-height: 450px;
+    padding: 34px 20px 40px;
+  }
+  .identity {
+    gap: 18px;
+  }
+  .avatar {
+    width: 90px;
+    height: 90px;
+  }
+  .identity p {
+    font-size: 1.05rem;
+  }
+  .contact {
+    gap: 1.5rem;
+    margin-top: 48px;
+  }
+  .contact > div > div {
+    align-items: flex-start;
+    font-size: 0.85rem;
+  }
+  .bio {
+    margin-top: 42px;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 520px) {
+  .identity {
+    align-items: flex-start;
+  }
+  h1 {
+    font-size: 2.1rem;
+  }
+  .identity p {
+    margin-top: 5px;
+    font-size: 0.95rem;
+  }
+  .contact {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  .bio {
+    margin-top: 36px;
+  }
+}
